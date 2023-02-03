@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ReviewApp: App {
+    @StateObject var setting = SettingObject()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(setting)
         }
     }
 }

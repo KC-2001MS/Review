@@ -14,6 +14,7 @@
 		F79BEB9B298CDFFA00099E47 /* ReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BEB9A298CDFFA00099E47 /* ReviewTests.swift */; };
 		F79BEBA5298CDFFA00099E47 /* ReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BEBA4298CDFFA00099E47 /* ReviewUITests.swift */; };
 		F79BEBA7298CDFFA00099E47 /* ReviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BEBA6298CDFFA00099E47 /* ReviewUITestsLaunchTests.swift */; };
+		F79BEBB4298CE07400099E47 /* SettingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BEBB3298CE07400099E47 /* SettingObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F79BEBA0298CDFFA00099E47 /* ReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79BEBA4298CDFFA00099E47 /* ReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewUITests.swift; sourceTree = "<group>"; };
 		F79BEBA6298CDFFA00099E47 /* ReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F79BEBB3298CE07400099E47 /* SettingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				F79BEB88298CDFF900099E47 /* ReviewApp.swift */,
 				F79BEB8A298CDFF900099E47 /* ContentView.swift */,
+				F79BEBB3298CE07400099E47 /* SettingObject.swift */,
 				F79BEB8C298CDFF900099E47 /* Assets.xcassets */,
 				F79BEB8E298CDFF900099E47 /* Review.entitlements */,
 				F79BEB8F298CDFF900099E47 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79BEBB4298CE07400099E47 /* SettingObject.swift in Sources */,
 				F79BEB8B298CDFF900099E47 /* ContentView.swift in Sources */,
 				F79BEB89298CDFF900099E47 /* ReviewApp.swift in Sources */,
 			);
